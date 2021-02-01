@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.logoapp{
+    padding: 1rem;
+}
+
+.newsgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagen-noticia{ 
+    
+    height: 35rem;
+}
+
+.foto-noticia{
+    width: 100%;
+}
+
+.titular{
+    height: 3rem;
+}
+.volanta{
+
+    height: 4rem;
+}
+.cuerpo{
+    height: 10rem;
+}
